@@ -65,9 +65,8 @@ CREATE OR ALTER TABLE  {{env}}_tasty_bytes.raw_pos.country
    iso_country VARCHAR(2),
    city VARCHAR(16777216),
    city_population VARCHAR(16777216),
-   city_id NUMBER(19,0) -- add new 
+   city_id NUMBER(19,0)
 );
-
 -- franchise table build
 CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.franchise
 (
@@ -79,8 +78,6 @@ CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.franchise
    e_mail VARCHAR(16777216),
    phone_number VARCHAR(16777216)
 );
-
-
 -- location table build
 CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.location
 (
